@@ -1914,4 +1914,5 @@ input[type="text"] {
   **/
 #layout-umap {
   color: #fff;
+  cursor: pointer;
 }
