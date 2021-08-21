@@ -534,7 +534,7 @@ input[type="range"]::-ms-thumb {
   cursor: pointer;
   vertical-align: top;
   padding: 5px;
-  display: none;
+  display: block;
 }
 
 #icons img:hover {

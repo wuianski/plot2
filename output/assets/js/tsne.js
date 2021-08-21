@@ -4154,7 +4154,11 @@ Welcome.prototype.startWorld = function () {
       setTimeout(function () {
         requestAnimationFrame(function () {
           document.querySelector("#loader-scene").classList += "hidden";
-          document.querySelector("#header-controls").style.opacity = 1;
+          document.querySelector("#layout-grid").click();
+          // document.querySelector("#header-controls").style.opacity = 0;
+          document.querySelector("#header-controls").style.display = "none";
+          // document.querySelector("#layout-umap").classList.remove("active");
+          // document.querySelector("#layout-grid").classList.add("active");
         });
       }, 1500);
     }.bind(this)
